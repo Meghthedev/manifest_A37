@@ -12,8 +12,6 @@
     <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" />
     <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-18.1" />
 
-    <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="tgitlab" />
-
     <project path="external/connectivity" name="LineageOS/android_external_connectivity" remote="github" revision="lineage-18.1" />
 
     <project path="hardware/qcom-caf/msm8916/audio" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-18.1-caf-msm8916" />
