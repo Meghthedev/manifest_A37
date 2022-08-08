@@ -8,18 +8,9 @@
     <project name="android_kernel_oppo_msm8916" path="kernel/oppo/msm8937" remote="tgitlab" revision="deepak-test-branch/lineage-18.1"/>
     <project name="Meghthedev/vendor_oppo_A37" path="vendor/oppo/A37" remote="github" revision="main"/>
 
-    <project name="LineageOS/android_external_bson" path="external/bson" remote="github" />
-    <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" />
-    <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-18.1" />
-
-    <project path="external/connectivity" name="LineageOS/android_external_connectivity" remote="github" revision="lineage-18.1" />
-
     <project path="hardware/qcom-caf/msm8916/audio" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-18.1-caf-msm8916" />
     <project path="hardware/qcom-caf/msm8916/display" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-18.1-caf-msm8916" />
     <project path="hardware/qcom-caf/msm8916/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-18.1-caf-msm8916" />
 
-    <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" remote="github" revision="lineage-18.1" />
 
-    <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="github" revision="lineage-18.1" />
-    <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" remote="github" revision="lineage-18.1" />
 </manifest>
