@@ -2,15 +2,15 @@
 <manifest>
     <remote  name="tgitlab"
            fetch="https://gitlab.com/TipzTeam/android-trees" />
+    <remote  name="megh"
+              fetch="https://github.com/Meghthedev"/>
 
-    <project name="android_device_cyanogen_msm8916-common-oppo" path="device/cyanogen/msm8916-common" remote="tgitlab" revision="lineage-18.1"/>
-    <project name="android_device_oppo_A37" path="device/oppo/A37" remote="tgitlab" revision="lineage-18.1"/>
-    <project name="android_kernel_oppo_msm8916" path="kernel/oppo/msm8937" remote="tgitlab" revision="deepak-test-branch/lineage-18.1"/>
-    <project name="Meghthedev/vendor_oppo_A37" path="vendor/oppo/A37" remote="github" revision="main"/>
+    <project name="android_device_cyanogen_msm8916-common-oppo" path="device/cyanogen/msm8916-common" remote="megh" revision="lineage-20"/>
+    <project name="android_device_oppo_A37" path="device/oppo/A37" remote="megh" revision="lineage-20"/>
+    <project name="android_kernel_oppo_msm8916" path="kernel/oppo/msm8937" remote="tgitlab" revision="deepak-test-branch/lineage-19.1"/>
+    <project name="proprietary_vendor_oppo_A37" path="vendor/oppo" remote="tgitlab" revision="lineage-19.1"/>
 
-    <project path="hardware/qcom-caf/msm8916/audio" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-18.1-caf-msm8916" />
-    <project path="hardware/qcom-caf/msm8916/display" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-18.1-caf-msm8916" />
-    <project path="hardware/qcom-caf/msm8916/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-18.1-caf-msm8916" />
-
-
+    <project path="hardware/qcom-caf/msm8916/audio" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-19.0-caf-msm8916" />
+    <project path="hardware/qcom-caf/msm8916/display" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-19.0-caf-msm8916" />
+    <project path="hardware/qcom-caf/msm8916/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-19.0-caf-msm8916" />
 </manifest>
